@@ -1,0 +1,8 @@
+.clear{	clear: both;}
+textarea{width: 33.5rem;margin: 1.6rem auto 1.85rem;display: block;height: 16rem;resize:none;padding: 0.75rem 1.1rem;font-size: 1.1rem;border: none;border-radius: 0.4rem;}
+ul{ margin-left: 1.25rem;}
+ul li{ margin-top: 1.5rem;}
+ul li span{margin-right: 2.25rem;}
+ul li i{margin-right: 0.8rem;font-size: 1.5rem;}
+.color{color: #ff3600;}
+.btn{width:33.5rem;line-height: 4rem;display: block;margin: 4rem auto 0;border: none;background: #0096ff;color:#FFFFFF;font-size:1.5rem;border-radius: 0.5rem;}

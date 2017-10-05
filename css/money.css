@@ -1,0 +1,25 @@
+.clear{clear: both;}
+.cont{width:33.5rem; margin: 0 auto;}
+.cont i{font-size: 2.8rem;float: left;}
+.cont i:first-of-type{margin-left: 1.8rem;}
+.green{color: #57cd76;}
+.cont span{width: 5.8rem;height: 0.1rem;background:#c9c9c9;display: block;float: left; margin:1.4rem 0.5rem 0;}
+.title{width:33.5rem; margin: 1.8rem auto 0;color: #363636;font-size:1.4rem;}
+.title span{margin-left: 3.7rem;}
+.cont2{background: #FFFFFF;padding: 1rem 1.4rem; margin-top: 3.5rem;}
+.cont2 h1{font-size: 1.5rem;color: #000000;}
+.cont2 h1 span{font-size: 1.4rem;color:#ff3600;float: right;}
+.cont2 p{margin-top: 2.1rem;font-size: 1.2rem;color:#a4a4a4;line-height: 1.8rem;}
+.cont3{margin-top:0.5rem;background: #FFFFFF;}
+.cont3 ul{}
+.cont3 ul li{height: 5rem;border-bottom: 0.05rem solid #ececec;}
+.cont3 ul li img:first-of-type{ float: left; width: 3.9rem;margin-top: 1rem;margin-left: 1.5rem;}
+.cont3 ul li p{float:left;line-height: 5rem;margin-left: 0.75rem;color: #000000;font-size: 1.5rem;}
+.cont3 ul li img:last-of-type{float: right;margin-top: 1.5rem;margin-right: 1.65rem;width: 2rem;}
+button{width:33.5rem;line-height: 4rem;display: block;margin: 3.4rem auto 0;border: none;background: #0096ff;color:#FFFFFF;font-size:1.5rem;border-radius: 0.5rem;}
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+.clear{clear: both;}
+.cont{width:33.5rem; margin: 0 auto;}
+.cont i{font-size: 2.8rem;float: left;}
+.cont i:first-of-type{margin-left: 1.8rem;}
+.green{color: #57cd76;}
+.cont span{width: 5.8rem;height: 0.1rem;background:#c9c9c9;display: block;float: left; margin:1.4rem 0.5rem 0;}
+.title{width:33.5rem; margin: 1.8rem auto 0;color: #363636;font-size:1.4rem;}
+.title span{}
+.authenticate{ background: #FFFFFF; margin: 3.5rem 0 0.75rem;padding-left: 1.25rem;padding-bottom: 2rem;}
+.authenticate h1{padding-top: 1rem;font-size: 1.5rem;color: #000000;margin-bottom: 2.2rem;}
+.authenticate p{font-size: 1.2rem;}
+.information{}
+.information input{width: 100%;line-height: 5rem;border: none;font-size: 1.5rem;padding-left:1.5rem;font-family: 微软雅黑;border-bottom: solid 0.05rem #ececec;}
+.btn{width:33.5rem;line-height: 4rem;display: block;margin: 3.4rem auto 0;border: none;background: #0096ff;color:#FFFFFF;font-size:1.5rem;border-radius: 0.5rem;}
+
+
+
+
+
+

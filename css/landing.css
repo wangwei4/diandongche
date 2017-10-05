@@ -1,0 +1,26 @@
+.clear{
+	clear: both;
+}
+.phoneNumber{height: 3.25rem;margin-top:4rem;width: 33.5rem;display: block;margin: 0 auto;border-bottom: #dcdcdc 0.025rem solid;}
+.phoneNumber img{ height: 2.5rem; width: auto; margin-left: 1.55rem;float: left;}
+.phoneNumber input{font-size: 1.4rem; margin-left: 2rem;border: none;background: none;color: #c1c1c1; margin-top: 0.6rem;}
+.number{height: 5.7rem;width: 33.5rem;display: block;margin: 0 auto;border-bottom: #dcdcdc 0.025rem solid;}
+.number img{ height: 2.5rem; margin-left: 1.55rem;float: left;margin-top: 2.4rem;}
+.number input{width: 14.5rem;font-size: 1.4rem; margin-left: 2rem;border: none;background: none;color: #c1c1c1;margin-top: 3.1rem;}
+.number>button{margin-top:1.4rem;float: right; height: 4rem; width: 13rem;background: #0096ff;color: #FFFFFF;font-size: 1.5rem;line-height: 4rem;text-align: center;border: none;border-radius:0.5rem ;}
+ul{width: 24.2rem;margin: 2.4rem auto 0;}
+ul li{float: left;line-height: 2.7rem; width: 12.1rem;}
+ul li:last-of-type{padding-left: 1rem;}
+ul li p{line-height: 1.7rem;font-size: 1.3rem; margin-left: 2.5rem;color: #363636;}
+ul li img{height: 1.7rem;float: left;}
+.checkbox{width: 33.5rem;margin: 6.3rem auto 0;}
+.checbokBg{float: left;width: 1.4rem;height: 1.4rem;border:#A4A4A4 solid 0.15rem;}
+.redTrue{float: left;width: 1.4rem;height: 1.4rem;background-image: url(../images/redTrue.png);background-size: 100% 100%;}
+.checkbox p{margin-left: 2rem;}
+.btn{width:33.5rem;line-height: 4rem;display: block;margin: 0 auto;border: none;background: #0096ff;color:#FFFFFF;font-size:1.5rem;border-radius: 0.5rem; margin-top: 0.8rem;}
+
+
+
+
+
+

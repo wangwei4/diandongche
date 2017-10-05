@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>无标题文档</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="no-transform" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="renderer" content="webkit">
+        <!--uc浏览器判断到页面上文字居多时，会自动放大字体优化移动用户体验。添加以下头部可以禁用掉该优化-->
+        <meta name="wap-font-scale" content="no">
+        <meta content="telephone=no" name="format-detection"/>
+        <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+        <link rel="stylesheet" type="text/css" href="css/mian.css"/>
+        <link rel="stylesheet" href="css/landing.css" />
+        <script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+        	 (function (doc, win) {
+				var docEl = doc.documentElement,
+				resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',         
+				recalc = function () {
+				  var clientWidth = docEl.clientWidth;
+				  if (!clientWidth) return;
+				  docEl.style.fontSize = 20 * (clientWidth / 720) + 'px';
+				};
+				  if (!doc.addEventListener) return;
+				  win.addEventListener(resizeEvt, recalc, false);
+				  doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+        </script>
+    </head>
+    <body> 
+    	<div class="box">
+			<div class="header bg_fff head-box-sRhow">
+				<a class="head-left-bg2" href="javascript:void(0);"></a>
+            	<h4 class="head-text color_363636">注册</h4>
+            </div>
+            <div style="height:5rem; margin-bottom: 2.3rem;"></div>
+            <div class="phoneNumber">
+            	<img src="images/header.png">
+            	<input type="text" placeholder="请输入手机号码">
+            </div>
+            <div class="number">
+            	<img src="images/lock.png">
+            	<input type="text" placeholder="请输入验证码">
+            	<button>发送验证码</button>
+            </div>
+            <div class="clear"></div>
+            <ul>
+            	<li><img id="img1" src="images/true.png"/><p>我是个人</p></li>
+            	<li><img id="img2" src="images/false.png"/><p>我是企业</p></li>
+            	<div class="clear"></div>
+            </ul>
+            <div class="checkbox">
+            	<div class="dd checbokBg"></div>
+            	<p>我已阅读并同意《用户注册协议》</p>
+            </div>
+            <button class="btn">验证手机</button>
+        </div>
+        <script>
+        	$(function(){
+        		$('#img1').click(function(){
+        			$("#img1").attr('src','images/true.png');
+        			$("#img2").attr('src','images/false.png');
+        		});
+        		$('#img2').click(function(){
+        			$("#img1").attr('src','images/false.png');
+        			$("#img2").attr('src','images/true.png');
+        		})
+        	})
+        	$(function(){
+        		$('.dd').click(function(){
+        			if ($('.dd').hasClass('redTrue')) {
+        				$('.dd').addClass('checbokBg');
+        				$('.dd').removeClass('redTrue');
+        			} else{
+        				$('.dd').removeClass('checbokBg');
+        				$('.dd').addClass('redTrue');
+        			}
+        		})
+        	})
+        </script>
+    </body>
+</html>
